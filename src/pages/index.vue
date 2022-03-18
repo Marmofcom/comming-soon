@@ -22,7 +22,7 @@ const {t} = useI18n()
     <p text-xl>
       {{ t('intro.subscribe-and-get-notified') }}
     </p>
-    <div my-10 flex items-center justify-center space-x-3>
+    <div my-10 flex flex-col sm:flex-row items-center justify-center space-y-3 sm:space-y-0 sm:space-x-3>
 
       <div>
         <input
@@ -52,8 +52,8 @@ const {t} = useI18n()
     </div>
     <div flex justify-center>
       <img src="/preview.png" z-20 rounded-md alt="">
-      <img src="/image-7.svg" absolute z-30 left-0 bottom-0 w-50 rounded-md class="-ml-35 -mb-10" alt="">
-      <img src="/image-8.svg" absolute right-0 w-30 z-10 rounded-md class="-mr-25 -mt-15" alt="">
+      <img src="/image-7.svg" absolute z-30 left-0 bottom-0  rounded-md class="hidden sm:block w-20 xl:w-50 xl:-ml-35 -mb-10 xl:-mb-10" alt="">
+      <img src="/image-8.svg" absolute right-0  z-10 rounded-md class="hidden sm:block w-20 xl:w-30 xl:-mr-25 -mt-20 xl:-mt-15" alt="">
     </div>
   </div>
 </template>
