@@ -1,0 +1,16 @@
+button:
+  about: About
+  back: Back
+  notify-me: Notify Me
+  home: Home
+  toggle_dark: Toggle dark mode
+  toggle_langs: Change languages
+intro:
+  desc: We are launching
+  soon: soon!
+  subscribe-and-get-notified: Subscribe and get notified
+  dynamic-route: Demo of dynamic route
+  hi: Hi, {name}!
+  aka: Also known as
+  whats-your-email-address: What's your email address?
+not-found: Not found
