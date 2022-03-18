@@ -6,6 +6,8 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url("/grid.svg");
+  background-size: 25px;
 }
 
 html.dark {
@@ -17,7 +19,7 @@ html.dark {
 }
 
 #nprogress .bar {
-  background: rgb(13,148,136);
+  background: rgb(0, 10, 255);
   opacity: 0.75;
   position: fixed;
   z-index: 1031;

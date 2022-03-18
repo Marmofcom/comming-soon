@@ -35,8 +35,8 @@ const {t} = useI18n()
             p="x4 y2"
             w="250px"
             text="center"
-            bg="transparent"
-            border="~ rounded gray-200 dark:gray-700"
+            dark:bg="transparent"
+            border="~ rounded gray-400 dark:gray-700"
             outline="none active:none"
             @keydown.enter="go"
         >
@@ -52,7 +52,7 @@ const {t} = useI18n()
     </div>
     <div flex justify-center>
       <img src="/preview.png" z-20 rounded-md alt="">
-      <img src="/image-7.svg" absolute z-30 left-0 bottom-0  rounded-md class="hidden sm:block w-20 xl:w-50 xl:-ml-35 -mb-10 xl:-mb-10" alt="">
+      <img src="/image-7.svg" absolute z-30 left-0 bottom-0  rounded-md class="hidden sm:block w-20 xl:w-40 xl:-ml-35 -mb-10 xl:-mb-10" alt="">
       <img src="/image-8.svg" absolute right-0  z-10 rounded-md class="hidden sm:block w-20 xl:w-30 xl:-mr-25 -mt-20 xl:-mt-15" alt="">
     </div>
   </div>
@@ -60,5 +60,5 @@ const {t} = useI18n()
 
 <route lang="yaml">
 meta:
-layout: home
+layout: default
 </route>
