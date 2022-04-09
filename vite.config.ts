@@ -83,7 +83,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'safari-pinned-tab.svg'],
       manifest: {
-        name: 'Minam',
+        name: 'The all-in-one management tool for your entire  product - Marmof',
         short_name: 'Vitesse',
         theme_color: '#ffffff',
         icons: [
