@@ -17,6 +17,6 @@ const toggleLocales = () => {
     </button>
   </nav>
   <div>
-    © Copyright Minma. All rights reserved
+    © Copyright Marmof. All rights reserved
   </div>
 </template>
