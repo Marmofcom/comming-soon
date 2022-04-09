@@ -3,7 +3,7 @@
 // you can use this to manipulate the document head in any components,
 // they will be rendered correctly in the html results with vite-ssg
 useHead({
-  title: 'Minam',
+  title: 'The all-in-one management tool for your entire  product - Marmof',
   meta: [
     { name: 'description', content: 'Opinionated Vite Starter Template' },
   ],
